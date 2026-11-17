@@ -1,0 +1,13 @@
+.env
+.env.*
+.git
+.vercel
+node_modules
+package.json
+package-lock.json
+vite.config.js
+vendor
+tests
+database/*.sqlite*
+storage/**
+bootstrap/cache/*.php

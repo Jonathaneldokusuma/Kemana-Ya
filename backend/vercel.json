@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "regions": ["sin1"],
+  "buildCommand": "",
+  "installCommand": "",
+  "outputDirectory": "public",
+  "functions": {
+    "api/index.php": {
+      "runtime": "vercel-php@0.7.4",
+      "maxDuration": 60
+    }
+  },
+  "routes": [
+    { "src": "/(.*)", "dest": "/api/index.php" }
+  ]
+}
